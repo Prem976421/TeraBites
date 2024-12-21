@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TeraBites.com | Easy Indian Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1> TeraBites.com
+
+                <input type="text" id="search-bar" placeholder="Search recipes..." />
+                        <button class="search-btn">Search</button>
+                 
+            </h1>      
+                            
+        </div>
+            
+    </header>
+<main>
+        <section class="recipe-grid">
+            
+            <div class="recipe-card" onclick="openModal('recipe1')">
+                <img src="AlooParatha1.jpg" alt="Aloo Paratha">
+                <div class="recipe-info">
+                    <h3>Aloo Paratha</h3>
+                    <p class="short-description">A popular North Indian flatbread stuffed with spiced mashed potatoes.</p>
+                </div>
+            </div>
+
+            <div class="recipe-card" onclick="openModal('recipe2')">
+                <img src="CholeBhature.jpg" alt="Chole Bhature" />
+                <div class="recipe-info">
+                    <h3>Chole Bhature</h3>
+                    <p class="short-description">A classic Punjabi dish made with spicy chickpeas and fried bread.</p>
+                </div>
+            </div>
+
+            <div class="recipe-card" onclick="openModal('recipe3')">
+                <img src="VegetableBiryani.jpg" alt="Vegetable Biryani" />
+                <div class="recipe-info">
+                    <h3>VegetableBiryani</h3>
+                    <p class="short-description">A flavorful rice dish with mixed vegetables and aromatic spices.</p>
+                </div>
+            </div>
+
+            <div class="recipe-card" onclick="openModal('recipe4')">
+                <img src="PaneerButterMasala.jpg" alt="Paneer Butter Masala" />
+                <div class="recipe-info">
+                    <h3>Paneer Butter Masala</h3>
+                    <p class="short-description">Soft paneer cubes cooked in a rich, creamy tomato-based gravy.</p>
+                </div>
+            </div>
+
+            <div class="recipe-card" onclick="openModal('recipe5')">
+                <img src="PavBhaji.jpg" alt="Pav Bhaji" />
+                <div class="recipe-info">
+                    <h3>Pav Bhaji</h3>
+                    <p class="short-description">A flavorful mashed vegetable curry served with buttered pav (bread rolls).</p>
+                </div>
+            </div>
+
+            <div class="recipe-card" onclick="openModal('recipe6')">
+                <img src="MasalaMaggi.jpg" alt="Masala Maggi" />
+                <div class="recipe-info">
+                    <h3>Masala Maggi</h3>
+                    <p class="short-description">A quick and easy spiced-up version of everyone's favorite instant noodles.</p>
+                </div>
+            </div>
+
+            <div class="recipe-card" onclick="openModal('recipe7')">
+                <img src="EggBhurji.jpg" alt="Egg Bhurji" />
+                <div class="recipe-info">
+                    <h3>Egg Bhurji</h3>
+                    <p class="short-description">A scrambled egg curry, a perfect breakfast or dinner dish.</p>
+                </div>
+            </div>
+
+            <div class="recipe-card" onclick="openModal('recipe8')">
+                <img src="Khichdi.jpg" alt="Khichdi" />
+                <div class="recipe-info">
+                    <h3>Khichdi</h3>
+                    <p class="short-description">A simple one-pot comfort food made with rice, lentils, and mild spices.</p>
+                </div>
+            </div>
+
+            <div class="recipe-card" onclick="openModal('recipe9')">
+                <img src="MasoorDal.jpg" alt="Masoor Dal" />
+                <div class="recipe-info">
+                    <h3>Masoor Dal</h3>
+                    <p class="short-description">A quick and nutritious red lentil curry with minimal spices.</p>
+                </div>
+            </div>
+
+            <div class="recipe-card" onclick="openModal('recipe10')">
+                <img src="https://via.placeholder.com/300x200" alt="Vegetable Pulao" />
+                <div class="recipe-info">
+                    <h3>Vegetable Pulao</h3>
+                    <p class="short-description">A simple rice dish with mixed vegetables and mild spices.</p>
+                </div>
+            </div>
+
+            <div class="recipe-card" onclick="openModal('recipe11')">
+                <img src="https://via.placeholder.com/300x200" alt="Poha" />
+                <div class="recipe-info">
+                    <h3>Poha</h3>
+                    <p class="short-description">A light and healthy snack made from flattened rice with peanuts and spices.</p>
+                </div>
+            </div>
+
+            <div class="recipe-card" onclick="openModal('recipe12')">
+                <img src="https://via.placeholder.com/300x200" alt="Vegetable Paratha" />
+                <div class="recipe-info">
+                    <h3>Vegetable Paratha</h3>
+                    <p class="short-description">Stuffed parathas with mixed vegetables, perfect for a quick meal.</p>
+                </div>
+            </div>
+
+            <div class="recipe-card" onclick="openModal('recipe13')">
+                <img src="https://via.placeholder.com/300x200" alt="Dosa" />
+                <div class="recipe-info">
+                    <h3>Dosa</h3>
+                    <p class="short-description">A crispy South Indian crepe made from rice and lentil batter.</p>
+                </div>
+            </div>
+
+            <div class="recipe-card" onclick="openModal('recipe14')">
+                <img src="https://via.placeholder.com/300x200" alt="Samosa" />
+                <div class="recipe-info">
+                    <h3>Samosa</h3>
+                    <p class="short-description">Crispy fried pastry filled with spiced potatoes and peas.</p>
+                </div>
+            </div>
+
+            <div class="recipe-card" onclick="openModal('recipe15')">
+                <img src="https://via.placeholder.com/300x200" alt="Roti and Dal" />
+                <div class="recipe-info">
+                    <h3>Roti and Dal</h3>
+                    <p class="short-description">An easy-to-make, balanced meal of roti (flatbread) and lentil curry.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recipe Modal -->
+        <div id="recipeModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeModal()">&times;</span>
+                <h2 id="modal-title">Recipe Name</h2>
+                <img id="modal-img" src="" alt="Recipe Image" />
+                <h3>Ingredients:</h3>
+                <ul id="modal-ingredients">
+                    <!-- Ingredients will be inserted here -->
+                </ul>
+                <h3>Instructions:</h3>
+                <ol id="modal-instructions">
+                    <!-- Instructions will be inserted here -->
+                </ol>
+            </div>
+        </div>
+
+        <div>
+            <footer>
+                <p>&copy; 2024 TeraBites.com | All rights reserved.</p>
+                <p><strong>About the Project:</strong> TeraBites.com is a collaborative platform to explore, share, and discover delicious recipes from diverse cuisines. Built with passion by our team as part of our academic journey.</p>
+                
+                <p><strong>Developed by:</strong></p>
+                <ul>
+                  <li>Prem Motghare</li>
+                  <li>Abhishek Singh</li>
+                  <li>Atharva Dhale</li>
+                  <li>Gaurav Badade</li>
+                </ul>
+                
+                <p><strong>Branch:</strong> CSE (Artificial Intelligence and Machine Learning)</p>
+              
+                <p><strong>Version:</strong> 1.0 | <strong>Completed:</strong> December 2024</p>
+                
+                <p><strong>Contact Us:</strong></p>
+                <p>Email: <a href="mailto:terabites.team@gmail.com">terabites.team@gmail.com</a></p>
+              
+            </footer>
+               
+        </div>
+    </main>
+
+   
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
